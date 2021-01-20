@@ -1,0 +1,643 @@
+@font-face {
+  font-family: 'Brown';
+  src: url(../fonts/Brown-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Brown bold';
+  src: url(../fonts/Brown-Bold-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Brown ebold';
+  src: url(../fonts/Brown-Bold.ttf);
+}
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	font-family: Brown;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Brown;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/***************************************
+**	    Main-menu Css code start      **
+****************************************/
+
+.hero{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	padding: 40px 0px 0px;
+	margin-bottom: -45px;
+	z-index: 0;
+
+}
+
+.hero .navbar-wrapper {
+	width: 100%;
+	margin-top: 5px;
+	position: relative;
+	z-index: 15;
+}
+
+.hero .navbar-wrapper .navbar-light{
+	width: 100%;
+	background-color: transparent !important;
+	padding: 0px;
+}
+
+.hero .navbar-wrapper .navbar-light .navbar-nav{
+	width: 100%;
+}
+
+.hero .navbar-wrapper .navbar-light .navbar-nav .btn-primary{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.hero .navbar-wrapper  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #32325d;
+    font-weight: 700;
+    padding-right: 35px;
+    font-size: 16px;
+}
+
+.hero .navbar-wrapper .navbar-light .navbar-nav .nav-link {
+    color: #32325d;
+    font-weight: 700;
+    padding-right: 35px;
+    font-size: 16px;
+}
+
+/***************************************
+**	Main-menu content Css code start  **
+****************************************/
+
+.hero .title{
+	width: 100%;
+	padding: 150px 0px;
+}
+
+.hero .title h2{
+	width:40%;
+	font-size: 35px;
+	font-weight: 700;
+	color: #212240;
+	margin-bottom: 25px;
+
+}
+
+.hero .title p{
+	width: 29%;
+	font-size: 16px;
+	color: #4a4c8d;
+	margin-bottom: 40px;
+}
+
+.hero .title .info a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding: 5px 15px;
+	margin-right: 15px;
+}
+
+.hero .title .info span{
+	color: #212240;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-right: 3px;
+}
+
+/***************************************
+**	Features Css code start  **
+****************************************/
+.Features{
+	width: 100%;
+	z-index: 1;
+
+}
+.Features .rowmar{
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+.Features .Subtitle{
+	width: 100%;
+}
+
+.Features .Subtitle h2{
+	font-size: 35px;
+	font-weight: 700;
+	color: #212240;
+	margin-bottom: 35px;
+	margin-top: 120px;
+
+}
+
+.Features .Subtitle p{
+	font-size: 16px;
+	color: #212240;
+	margin-bottom: 60px;
+}
+
+.Features .card{
+	padding: 35px 25px 60px;
+	border:none;
+	box-shadow: 2px 4px 8px 4px #EECECE;
+}
+
+.Features .card .card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 35%;
+    margin-bottom: 25px;
+}
+
+.Features .card .card-body .card-title{
+	font-size: 22px;
+	color: #212240;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.Features .card .card-body .card-text{
+	font-size: 14px;
+	line-height: 24px;
+	color: #212240;
+}
+
+/***************************************
+**	    services Css code start       **
+****************************************/
+
+.services{
+	width: 100%;
+	background: url("../images/BG2.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px 80px;
+	text-align: center;
+
+
+}
+
+.services .title{
+	width: 100%;
+	padding-bottom: 60px;
+}
+
+.services .title h2{
+	font-size: 35px;
+	font-weight: 500;
+	color: #212240;
+	margin-bottom: 25px;
+
+}
+
+.services .title p {
+	width: 57%;
+	font-size: 16px;
+	color: #212240;
+	margin-bottom: 40px;
+	margin: 0 auto;
+}
+
+.services .rowmar{
+	margin-bottom: 80px;
+}
+.services .inner-services{
+	width: 100%;
+}
+
+.services .inner-services img{
+	margin-bottom: 40px;
+}
+
+.services .inner-services h6{
+	font-size: 15px;
+	font-weight: 700;
+	color: #212240;
+	margin-bottom: 15px;
+}
+.services .inner-services p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #212240;
+}
+/***************************************
+**	    safty Css code start          **
+****************************************/
+
+.safty{
+	width: 100%;
+	padding: 100px 0px 0px;
+
+}
+
+.safty .move-img{
+	width: 100%;
+	text-align: left;
+}
+
+.safty .title{
+	width: 100%;
+}
+
+.safty .title h2{
+	width: 65%;
+	font-size: 35px;
+	font-weight: 500;
+	color: #212240;
+	margin-bottom: 25px;
+
+}
+
+.safty .title p{
+	width: 66%;
+	font-size: 16px;
+	color: #212240;
+	margin-bottom: 40px;
+}
+
+.safty .new-row{
+	width: 100%;
+}
+
+.safty .new-row .title{
+	width: 100%;
+}
+
+.safty .new-row .title h6{
+	font-size: 18px;
+	font-weight: 600;
+	color: #212240;
+	margin-bottom: 15px;
+}
+
+.safty .new-row .title p{
+	width: 71%;
+	font-size: 14px;
+	line-height: 24px;
+	color: #212240;
+}
+
+.safty .info a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 2px;
+	padding: 5px 30px;
+	margin-right: 10px;
+}
+
+.safty .info span{
+	color: #212240;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.safty .info span i{
+	
+	margin-left: 5px;
+}
+
+/***************************************
+**	    move Css code start     **
+****************************************/
+
+.move{
+	width: 100%;
+	padding: 80px 0px 0px;
+
+}
+.move .move-img{
+	width: 100%;
+	text-align: center;
+}
+
+.move .title{
+	width: 100%;
+}
+
+.move .title h2{
+	font-size: 35px;
+	font-weight: 500;
+	color: #212240;
+	margin-bottom: 25px;
+
+}
+
+.move .title p{
+	width: 91%;
+	font-size: 16px;
+	color: #212240;
+	margin-bottom: 40px;
+}
+
+.move .new-row{
+	width: 100%;
+}
+
+.move .new-row .title{
+	width: 100%;
+}
+
+.move .new-row .title h6{
+	font-size: 18px;
+	font-weight: 600;
+	color: #212240;
+	margin-bottom: 15px;
+}
+
+.move .new-row .title p{
+	font-size: 14px;
+	color: #212240;
+}
+
+.move .info a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 2px;
+	padding: 5px 30px;
+	margin-right: 10px;
+}
+
+.move .info span{
+	color: #212240;
+	font-weight: 700;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.move .info span i{
+	margin-left: 5px;
+}
+
+
+/***************************************
+**	    what-we-do Css code start     **
+****************************************/
+
+.what-we-do{
+	width: 100%;
+	background: url("../images/GoHub_Landing_Page.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px 40px;
+
+}
+
+.what-we-do .title{
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.what-we-do .title h2{
+	font-size: 35px;
+	font-weight: 500;
+	color: #212240;
+	margin-bottom: 20px;
+
+}
+
+.what-we-do .title p{
+	width: 76%;
+	font-size: 16px;
+	color: #212240;
+}
+
+.what-we-do .savetime{
+	width: 100%;
+}
+
+.what-we-do .savetime h5{
+	font-size: 22px;
+	font-weight: 600;
+	color: #212240;
+}
+
+.what-we-do .savetime ul{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.what-we-do .savetime ul li{
+	list-style: none;
+	margin-top: 20px;
+	color: #212240;
+}
+
+.what-we-do .savetime ul li i{
+	color: #8979e9;
+	margin-right: 10px;
+}
+
+/***************************************
+**	 simple section Css code start    **
+****************************************/
+.simple{
+	width: 100%;
+	padding: 80px 0px 80px;
+}
+
+.simple .savetime{
+	width: 100%;
+}
+
+.simple .savetime h5{
+	font-size: 22px;
+	font-weight: 600;
+	color: #212240;
+	margin-bottom: 25px;
+}
+
+.simple .savetime ul{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.simple .savetime ul li{
+	list-style: none;
+	margin-bottom: 20px;
+	color: #212240;
+}
+
+.simple .savetime ul li i{
+	color: #8979e9;
+	margin-right: 10px;
+}
+
+/***************************************
+**	        Demo Css code start       **
+****************************************/
+
+.demo{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: hsl(240, 8%, 91%);
+}
+
+.demo .title{
+	width: 100%;
+}
+.demo .title img{
+	margin-bottom: 20px;
+}
+.demo .title h2{
+	font-size: 35px;
+	font-weight: 500;
+	color: #212240;
+	margin-bottom: 20px;
+
+}
+
+.demo .title p{
+	font-size: 16px;
+	color: #212240;
+}
+.demo .footer-form{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.demo .form-control {
+    padding: 25px 15px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #8081ab;
+    font-size: 18px;
+    border-radius: 5px;
+    /* box-shadow: 2px 4px 4px 1px #f4f4fe; */
+}
+
+.demo .input-group-text{
+	color: #845cff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	/* box-shadow: 2px 4px 4px 1px #f4f4fe; */
+}
+
+.demo .input-group-text img{
+	margin-left: 5px;
+}
+/* .demo a:hover{
+	color: #212240;
+}
+
+.demo a img{
+	margin-left: 10px;
+} */
+
+/***************************************
+**	 Footer-section Css code start    **
+****************************************/
+
+.footer-section{
+	width: 100%;
+	background-color: #212240;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+}
+
+.footer-section .top-footer{
+	width: 100%;
+	padding: 80px 0px 60px;
+	color: #d3d3d9;
+}
+.footer-section .top-footer .inner-widget{
+	width: 100%;
+}
+.footer-section .inner-widget img{
+	margin-bottom: 20px;
+	height: auto;
+	width: 135px;
+}
+
+.footer-section .inner-widget p{
+	margin-bottom: 20px;
+}
+
+.footer-section .inner-widget ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-section .inner-widget ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.footer-section .inner-widget ul li i{
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px;
+	color: #555377;
+}
+
+.footer-section .footer-list{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.footer-section .bold{
+	font-weight: 600;
+}
+.footer-section .footer-list li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+/***********************************
+**   bottom-footer Css code start **
+************************************/
+
+.footer-section .bottom-footer{
+	width: 100%;
+	padding: 20px 0px 0px;
+}
+.footer-section .bottom-footer p{
+	color: #616f7d;
+	font-size: 14px;
+}
+
+.footer-section .bottom-footer .inner-menu{
+	display: block;
+	text-align: right;
+}
+
+.footer-section .bottom-footer .inner-menu li{
+	list-style: none;
+	display: inline-block;
+	color: #616f7d;
+	margin-right: 15px;
+}
+
+.footer-section .bottom-footer .inner-menu li i{
+	font-size: 5px;
+	vertical-align: middle;
+}
